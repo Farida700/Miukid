@@ -1,0 +1,161 @@
+/* Базовые настройки страницы*/
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+p {
+    margin: 0;
+}
+
+.left,
+.ul_li>li {
+    float: left;
+    padding: 10px 15px;
+}
+
+.b-r li {
+    border-right: 1px solid rgb(192, 191, 191);
+}
+
+.b-r li:last-child {
+    border-right: 0;
+}
+
+.right {
+    float: right;
+    padding: 10px 15px;
+}
+
+
+/*float-обтекание, выравнивание
+    , - перечисление классов с одинаковым стилем*/
+
+
+/* .ul_li{
+        float: left;
+    } */
+
+.verhnee_menu {
+    background-color: rgb(228, 227, 227);
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* .verhnee_menu ul li{
+        float: left;
+    } */
+
+.verhnee_menu .ul_li i {
+    margin-right: 10px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*margin 0 auto означает выровнять по центру*/
+
+.right,
+.m-l-10 {
+    margin-left: 0px;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: blue;
+}
+
+.ul_li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .ul-li li{
+        padding: 10px 15px;
+    } */
+
+.icon_msg {
+    position: relative;
+}
+
+.msg {
+    position: absolute;
+    top: -7px;
+    right: 8px;
+    background: red;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: 13px;
+}
+
+.center_menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grey_circle {
+    background-color: rgb(228, 227, 227);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 20px;
+    color: rgb(29, 56, 105);
+}
+
+.center_menu .right>p:first-child {
+    font-weight: bold;
+    color: rgb(29, 56, 105);
+}
+
+.center_menu .right>p {
+    font-weight: bold;
+    color: rgb(179, 175, 175);
+}
+
+.nijnee_menu {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(216, 211, 211);
+}
+
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px;
+    width: 100%;
+    top: 42px;
+    left: 0;
+}
+
+.hover_menu li:hover .dropdown_menu {
+    display: block;
+}
+
+a,
+li {
+    text-decoration: blue;
+    list-style: none;
+}
