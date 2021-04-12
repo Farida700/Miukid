@@ -5,9 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Урок 17</title>
+    <title>Урок 28</title>
+    <link href="style/bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="style/bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
     <link href="fontawesome/css/all.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Вход в папку - /
     Выход из папки - ..
@@ -43,7 +46,7 @@
             <div class="container">
                 <ul class="ul_li">
                     <li>
-                        <img src="logo.png" alt="Логотип" />
+                        <img src="img/logo.png" alt="Логотип" />
                     </li>
                     <li>
                         <div class="left">
@@ -81,7 +84,7 @@
                 <div class="left">
                     <ul class="hover_menu ul_li">
                         <li>
-                            <a href="#">Home<i class="fas fa-chevron-down"></i></span></a>
+                            <a href="#">Home</a>
                             <div class="dropdown_menu">
                                 <ul class="down_menu">
                                     <li><a href="#">Page 1 </a></li>
@@ -120,7 +123,7 @@
                         </ul>
                         <ul class="hover_menu ul_li">
                             <li>
-                                <a href="#">Blogs<i class="fas fa-chevron-down"></i></a>
+                                <a href="#">Blogs</a>
                                 <div class="dropdown_menu">
                                     <ul class="down_menu">
                                         <li><a href="#">Number1</a></li>
@@ -133,7 +136,7 @@
                         </ul>
                         <ul class="hover_menu ul_li">
                             <li>
-                                <a href="#">About us<i class="fas fa-chevron-down"></i></a>
+                                <a href="#">About us</a>
                                 <div class="dropdown_menu">
                                     <ul class="down_menu">
                                         <li><a href="#">Number1</a></li>
@@ -179,78 +182,370 @@
                     <div class="list_product">
                         <div class="product">
                             <div class="img">
+                                <div class="tool orange">
+                                    <span>New</span>
+                                </div>
+                                <img src="/product/img50.jpg" alt="Кофта">
+                                <div class="opisanie_img">
 
-                                <img src="/product/img50.jpg" alt="Куртка"> </div>
-                        </div>
-                        <div class="body_product">
-                            <p class="title">Title</p>
-                            <div class="block_stars">
-                                <div class="stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                                    <div class="opisanie">
+                                        <p class="title">Заголовок</p>
+                                        <p>Opisanie opisanie opisanie <span class="yellow">this</span></p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="review">
-                                <span>6 Review(s)</span>
+                            <div class="body_product">
+                                <p class="title">Animal print Sweatshirt</p>
+                                <div class="block_stars">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="review">
+                                        <span>6 Review(s)</span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="price">
-                            <span>$36.00</span>
-                            <del>$42.00</del>
-                        </div>
-                        <div class="bts">
-                            <ul class="ul_li">
-                                <li><span class="grey_circle"><i class="fas fa-shopping-cart"></i></span></li>
-                                <li><span class="grey_circle"><i class="fas fa-balance-scale"></i></span></li>
-                                <li><span class="grey_circle"><i class="fas fa-heart"></i></span></li>
-                            </ul>
+                            <div class="price">
+                                <span>$36.00</span>
+                                <del>$42.00</del>
+                            </div>
+
+                            <div class="bts down">
+                                <ul class="ul_li">
+                                    <li class="add_cart"><span class="grey_circle"><i class="fas fa-shopping-cart"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-balance-scale"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-heart"></i></span></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="product">
                             <div class="img">
+                                <div class="tool green">
+                                    <span>New</span>
+                                </div>
+                                <img src="/product/img61.jpg" alt="Кофта">
+                                <div class="opisanie_img">
 
-                                <img src="/product/img50.jpg" alt="Куртка"> </div>
-                        </div>
-                        <div class="body_product">
-                            <p class="title">Title</p>
-                            <div class="block_stars">
-                                <div class="stars">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
+                                    <div class="opisanie">
+                                        <p class="title">Заголовок</p>
+                                        <p>Opisanie opisanie opisanie <span class="yellow">this</span></p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="review">
-                                <span>6 Review(s)</span>
+                            <div class="body_product">
+                                <p class="title">Animal print Sweatshirt</p>
+                                <div class="block_stars">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="review">
+                                        <span>6 Review(s)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <span>$36.00</span>
+                                <del>$42.00</del>
+                            </div>
+
+                            <div class="bts down">
+                                <ul class="ul_li">
+                                    <li><span class="grey_circle"><i class="fas fa-shopping-cart"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-balance-scale"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-heart"></i></span></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="price">
-                            <span>$36.00</span>
-                            <del>$42.00</del>
+                        <div class="product">
+                            <div class="img">
+                                <div class="tool blue1">
+                                    <span>New</span>
+                                </div>
+                                <img src="/product/img63.jpg" alt="Кофта">
+                                <div class="opisanie_img">
+
+                                    <div class="opisanie">
+                                        <p class="title">Заголовок</p>
+                                        <p>Opisanie opisanie opisanie <span class="yellow">this</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="body_product">
+                                <p class="title">Animal print Sweatshirt</p>
+                                <div class="block_stars">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="review">
+                                        <span>6 Review(s)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <span>$36.00</span>
+                                <del>$42.00</del>
+                            </div>
+
+                            <div class="bts down">
+                                <ul class="ul_li">
+                                    <li><span class="grey_circle"><i class="fas fa-shopping-cart"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-balance-scale"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-heart"></i></span></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="bts">
-                            <ul class="ul_li">
-                                <li><span class="grey_circle"><i class="fas fa-shopping-cart"></i></span></li>
-                                <li><span class="grey_circle"><i class="fas fa-balance-scale"></i></span></li>
-                                <li><span class="grey_circle"><i class="fas fa-heart"></i></span></li>
-                            </ul>
+                        <div class="product">
+                            <div class="img">
+                                <div class="tool red1">
+                                    <span>New</span>
+                                </div>
+                                <img src="/product/img50.jpg" alt="Кофта">
+                                <div class="opisanie_img">
+
+                                    <div class="opisanie">
+                                        <p class="title">Заголовок</p>
+                                        <p>Opisanie opisanie opisanie <span class="yellow">this</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="body_product">
+                                <p class="title">Animal print Sweatshirt</p>
+                                <div class="block_stars">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="review">
+                                        <span>6 Review(s)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <span>$36.00</span>
+                                <del>$42.00</del>
+                            </div>
+
+                            <div class="bts down">
+                                <ul class="ul_li">
+                                    <li><span class="grey_circle"><i class="fas fa-shopping-cart"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-balance-scale"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-heart"></i></span></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="product ">3</div>
-                        <div class="product ">4</div>
-                        <div class="product ">5</div>
+                        <div class="product">
+                            <div class="img">
+                                <div class="tool orange">
+                                    <span>New</span>
+                                </div>
+                                <img src="/product/img61.jpg" alt="Кофта">
+                                <div class="opisanie_img">
+
+                                    <div class="opisanie">
+                                        <p class="title">Заголовок</p>
+                                        <p>Opisanie opisanie opisanie <span class="yellow">this</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="body_product">
+                                <p class="title">Animal print Sweatshirt</p>
+                                <div class="block_stars">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="review">
+                                        <span>6 Review(s)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <span>$36.00</span>
+                                <del>$42.00</del>
+                            </div>
+                            <div class="bts down">
+                                <ul class="ul_li">
+                                    <li><span class="grey_circle"><i class="fas fa-shopping-cart"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-balance-scale"></i></span></li>
+                                    <li><span class="grey_circle"><i class="fas fa-heart"></i></span></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+            </section>
+            <section id="banner" class="mt-4">
+                <div class="row">
+                    <div class="col-md-8 pe-2"><img src="img/banner.png" alt="Баннер"></div>
+                    <div class="col-md-4"><img src="img/banner2.png" alt="Баннер2"></div>
                 </div>
             </section>
-            <section id="banner "></section>
-        </div>
+            </div>
     </main>
-    <footer class="foot ">
-        <span id="footer ">Подвал сайта</span>
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p><img src="img/logo.png" alt="Лого"></p>
+                    <p class="mt-3">Miukid is a premium eCommerce theme with advanced admin module.</p>
+                    <ul class="ul_li mt-3">
+                        <li>
+                            <span><i class="fas fa-phone-volume"></i></span>
+                            <span>
+                                <span>Telephone:</span>
+                            <a href="tel:+996550566977">+996 550 566 977</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-at"></i></span>
+                            <span>
+                                <span>Email:</span>
+                            <a href="mailto:happy_w@bk.ru">happy_w@bk.ru</a>
+                            </span>
+                        </li>
+                        <li><span><i class="far fa-clock"></i></span>
+                            <span>
+                                <span>08:00-18:00, Понедельник-Суббота, Воскресенье-выходной</span>
+                            </span>
+                        </li>
+                    </ul>
+                    <p class="btn_call">
+                        <a href="tel:+996550566977">Contact us</a>
+                    </p>
+                </div>
+                <div class="col-sm-2">
+                    <h3 class="f_ttl">Information</h3>
+                    <!-- <div class="border1"></div> -->
+                    <ul class="f_li_hover">
+                        <li>About us</li>
+                        <li>Shipping & Returns</li>
+                        <li>Privacy notice</li>
+                        <li>Conditions of use</li>
+                        <li>Rss</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h3 class="f_ttl">Service</h3>
+                    <ul class="f_li_hover">
+                        <li>Online support</li>
+                        <li>Help & FAQs</li>
+                        <li>Call center</li>
+                        <li>Contact us</li>
+                        <li>Custom link</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="f_ttl">Instagramm</h3>
+                    <ul class="ul_li">
+                        <li><img src="img/img18.jpg" alt="Topki"></li>
+                        <li><img src="img/img19.jpg" alt="Girl"></li>
+                        <li><img src="img/img20.jpg" alt="Body"></li>
+                        <li><img src="img/img21.jpg" alt="Fotbolka"></li>
+                        <li><img src="img/img22.jpg" alt="Kofta"></li>
+                        <li><img src="img/img23.jpg" alt="Kofta2"></li>
+                        <li><img src="img/img24.jpg" alt="Shapka"></li>
+                        <li><img src="img/img25.jpg" alt="Hat"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="dno">
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="ul_li">
+                            <li>
+                                <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="skype.com"><i class="fab fa-skype"></i></a>
+                            </li>
+                            <li>
+                                <a href="faceook.com"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="VK.com"><i class="fab fa-vk"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <div class="dno_a">
+                            <a href="home ">Home</a>
+                            <a href=" ">New arrival</a>
+                            <a href="https://2gis.kg/bishkek/search/%D0%BA%D1%83%D0%B9%D0%B1%D1%8B%D1%88%D0%B5%D0%B2%D0%B0%2019/geo/70030076154728703/75.283056%2C42.846445?m=75.283186%2C42.846813%2F17.17 " target="_blank ">Site map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_end">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="footer_end_left">
+                                <p>Copyright © 2021 by</p>
+                                <a href="#">Farida</a>
+                                <span>All Rights Reserved.</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer_end_right">
+                                <ul class="ul_li">
+                                    <li>
+                                        <a href="#">
+                                            <!-- <i class="fab fa-cc-paypal"></i> -->
+                                            <img src="./img/icon1.png" alt="PayPal">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <!-- <i class="fab fa-cc-visa"></i> -->
+                                            <img src="./img/icon2.png" alt="VISA">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <!-- <i class="fab fa-cc-mastercard"></i> -->
+                                            <img src="./img/icon3.png" alt="Cirrus">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <!-- <i class="fab fa-cc-discover"></i> -->
+                                            <img src="./img/icon4.png" alt="Descover">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <!-- <i class="fab fa-ebay"></i> -->
+                                            <img src="./img/icon5.png" alt="Ebay">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
