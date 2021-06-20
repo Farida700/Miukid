@@ -187,12 +187,9 @@
 
 		let block_cart = document.querySelector('.bag.shopcard__dropdown ul');
 		block_cart.appendChild(creat_li);
-		
-		alert("Товар успешно добавлен в корзину!");
 
 		// Удаление товара
 		delete_product();
-
 	};
 
 	for (var i = 0; i < class_name.length; i++) {
@@ -203,9 +200,6 @@
 		//  Что должно выполнятся
 		// Обработчик
 	}
-
-
-	
 	
 	function delete_product(){
 		let click_trash = document.querySelectorAll(".trash");
@@ -219,19 +213,28 @@
 
 			this.parentNode.parentNode.remove();
 
-
 		}
 	}
+		let modalPrice = document.querySelector('.shopcard__total');
+		let totalPrice = cart.reduce(function(result, item){
+		return result + item.cost;
+	
+		}, 0)
 
-	function update_count() {
-		let count_product_in_cart = 0;
+modalPrice.textContent = totalPrice;
+	
 
-	 	let count_product = document.querySelectorAll(".info__price span");
+	// function update_count() {
+	// 	let count_product_in_cart = 0;
+
+	//  	let count_product = document.querySelectorAll(".info__price span");
 		
-		for (var i = 0; i < count_product.length; i++) {
-			count_product_in_cart = count_product_in_cart + +count_product[i].textContent;
-		}
+	// 	for (var i = 0; i < count_product.length; i++) {
+	// 		count_product_in_cart = count_product_in_cart + +count_product[i].textContent;
+	// 	}
 
-		console.log(count_product_in_cart);
-	}
+	// 	console.log(count_product_in_cart);
+	
+// }
+ 
 	
