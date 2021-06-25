@@ -577,17 +577,16 @@ button {
     color: #336;
 }
 
-.info__price {
+.price {
     padding-top: 10px;
 }
 
-.info__price span {
+.price span {
     font-size: 18px;
     font-weight: 600;
-    padding-right: 10px;
 }
 
-.info__price del {
+.price del {
     color: #aeaeba;
     font-weight: 400;
 }
