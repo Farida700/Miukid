@@ -73,35 +73,34 @@ function delete_product() {
     totalPrice();
     total_amount();
   }
-
 }
 
 //Сложение суммы товаров
-function totalPrice(){
-let countPrice = document.querySelectorAll(".info__price .oprice");
+function totalPrice() {
+  let countPrice = document.querySelectorAll(".info__price .oprice");
 
-let total_price = 0;
+  let total_price = 0;
 
-for (var i = 0; i < countPrice.length; i++) {
-  total_price = total_price + (+countPrice[i].innerHTML);
+  for (var i = 0; i < countPrice.length; i++) {
+    total_price = total_price + +countPrice[i].innerHTML;
+  }
+
+  document.getElementsByClassName(
+    "total_cart"
+  )[0].innerHTML = `$ ${total_price}`;
+  document.querySelectorAll(
+    ".shopcard__total span"
+  )[0].innerHTML = `$ ${total_price}`;
 }
 
-document.getElementsByClassName("total_cart")[0].innerHTML = `$ ${total_price}`;
-document.querySelectorAll(".shopcard__total span")[0].innerHTML = `$ ${total_price}`;
-};
-
 //Сумма количества товаров
-function total_amount(){
+function total_amount() {
   let totalAmount = document.getElementsByClassName("bag__item").length;
   document.getElementsByClassName("cart_count")[0].innerHTML = totalAmount;
 }
-	
+
 const tabs = {
-  list_tabs: [
-    "Лидеры продаж",
-    "Новинки",
-    "Распродажа"
-  ]
+  list_tabs: ["Лидеры продаж", "Новинки", "Распродажа"],
 };
 
 let creat_ul = document.createElement("ul");
