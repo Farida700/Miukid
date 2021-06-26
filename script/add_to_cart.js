@@ -96,3 +96,18 @@ function total_amount(){
   document.getElementsByClassName("cart_count")[0].innerHTML = totalAmount;
 }
 	
+const tabs = {
+  list_tabs: [
+    "Лидеры продаж",
+    "Новинки",
+    "Распродажа"
+  ]
+};
+
+let creat_ul = document.createElement("ul");
+
+tabs.list_tabs.forEach((item, i) => {
+  creat_ul.innerHTML += `<li>${item}<li>`;
+});
+
+document.querySelector(".insert_listing").innerHTML += creat_ul.outerHTML;
