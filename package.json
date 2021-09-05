@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "function",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farida700/MiuKid-new.git"
+  },
+  "keywords": [
+    "MiuKid"
+  ],
+  "author": "Farida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farida700/MiuKid-new/issues"
+  },
+  "homepage": "https://github.com/Farida700/MiuKid-new#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.8.0"
+  }
+}
